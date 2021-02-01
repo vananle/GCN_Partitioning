@@ -82,7 +82,7 @@ def main():
 
     # check_grad(model, x, adj, A, As)
 
-    #Train
+    # Train
     Train(model, x, adj, As, optimizer)
 
     # Test the best partition
